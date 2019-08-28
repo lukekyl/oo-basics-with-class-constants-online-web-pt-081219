@@ -3,6 +3,7 @@ class Book
   attr_reader :title :genre
 
   GENRE=[]
+  
   def genre=(genre)
     @genre = genre
     GENRES << genre
